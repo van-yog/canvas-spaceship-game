@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./src/css/libs.min.css" />
+    <link rel="icon" href="./src/icon/iOneWeb.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="program8.css" />
+    <title>My JS - Canvas Spaceship Game app</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row m-1">
+        <!-- Main content -->
+        <div class="col-12 mb-1 text-center animated fadeIn fast">
+          <button class="btn btn-secondary m-1 fixed" id="btnNewGame">
+            New Game
+          </button>
+
+          <button class="btn btn-secondary m-1 unvisible fixed" id="btnStartStop">
+            Pause
+          </button>
+          <button class="btn btn-secondary player-1" id="btnOnePlayer">
+            1 player &nbsp;&nbsp;&nbsp; keys: &larr;, &rarr;,&uarr;, &darr;
+          </button>
+          <button class="btn btn-secondary player-2" id="btnTwoPlayers">
+            2 players &nbsp;&nbsp;&nbsp; keys: w, s, a, d
+          </button>
+
+          <!-- <span class="btn btn-secondary control-1"> </span>
+          <span class="btn btn-secondary control-2"> </span> -->
+
+          <div class="mx-auto">
+            <canvas id="canvas" width="650" height="512"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center p-2 bg-light">
+          <div class="col-12 col-md-2">
+            <p>Social</p>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://www.facebook.com/ivanfilming" target="_blank">
+                  <img class="mr-1" src="./src/icon/facebook_blue.png" alt="facebook" width="20" />
+                  facebook
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/papakakmama/" target="_blank">
+                  <img class="mr-1" src="./src/icon/insta_blue.png" alt="insta" width="20" />
+                  instagram
+                </a>
+              </li>
+              <li>
+                <a class="d-inline d-md-none" href="viber://add?number=380731016141" target="_blank">
+                  <img class="img-fluid mr-1" src="./src/icon/viber_blue.png" width="20" alt="viber" />
+                  viber
+                </a>
+              </li>
+              <li>
+                <a class="d-none d-md-inline" href="viber://chat?number=%2B380731016141" target="_blank">
+                  <img class="img-fluid mr-1" src="./src/icon/viber_blue.png" width="20" alt="viber" />
+                  viber
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-2">
+            <p>GitHub</p>
+            <ul class="list-unstyled">
+              <li>
+                repository: <br />
+                <a href="https://github.com/van-yog"><span class="font-weight-bold">van-yog</span></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-2">
+            <p>Contacts</p>
+            <ul class="list-unstyled">
+              <li>
+                email: <br />
+                <a href="mailto:ikharchenko2008@gmail.com"
+                  ><span class="font-weight-bold">ikharchenko2008@gmail.com</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src=" ./program8.js"></script>
+
+    <script src="./src/js/libs.min.js"></script>
+  </body>
+</html>
